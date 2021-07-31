@@ -7,6 +7,7 @@ import 'package:flutter/services.dart';
 import 'package:http/http.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:web3dart/web3dart.dart';
+import 'package:sahayog/Palette.dart';
 
 
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
 
-        primarySwatch: Colors.blue,
+        primaryColor: Palette.DarkBlue,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -115,13 +116,14 @@ return response;
   
 
     return Scaffold(
-     backgroundColor: Vx.gray300,
+
+     backgroundColor: Vx.white,
       body:ZStack(
             [
-               VxBox().blue600.size(context.screenWidth, context.percentHeight*30).make(),
+               VxBox().color(Palette.DarkBlue).size(context.screenWidth, context.percentHeight*30).make(),
                VStack([
                  (context.percentHeight*10).heightBox,
-                 "Sahayog".text.xl4.white.bold.center.makeCentered().py16(),
+                 "SAHAYOG".text.xl4.white.bold.center.makeCentered().py16(),
                  (context.percentHeight*5).heightBox,
                    VxBox(
                      child: VStack([
@@ -150,19 +152,19 @@ return response;
                        getBalance(address);
                      },
                       icon: Icon(Icons.refresh, color: Colors.white), 
-                      color: Colors.blue,
+                      color: Palette.DarkBlue,
                       shape:Vx.roundedSm,
                       label: "Refresh".text.white.make()).h(50),
                        FlatButton.icon(onPressed: ()=>sendCoins(),
-                      icon: Icon(Icons.call_made_outlined,
+                      icon: Icon(Icons.add_outlined,
                       color: Colors.white), 
-                      color: Colors.green,
+                      color: Palette.DarkGreen,
                       shape:Vx.roundedSm,
                       label: "Deposit".text.white.make()).h(50),
                        FlatButton.icon(onPressed: ()=>withdrawCoins(),
-                      icon: Icon(Icons.call_received_outlined,  color: Colors.white), 
+                      icon: Icon(Icons.remove_outlined,  color: Colors.white),
                       shape:Vx.roundedSm,
-                      color: Colors.red,
+                      color: Palette.Orange,
                       label: "Withdraw".text.white.make()).h(50)
                    ],
                    alignment: MainAxisAlignment.spaceAround,
