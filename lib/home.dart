@@ -102,12 +102,12 @@ Future<String> submit(String functionName,List<dynamic>args)async{
     if(functionName == "depositBalance")
     {
      
-    TransactionsData t = new TransactionsData("PAID",result,args[0].toString(),currentTime);
+    TransactionsData t = new TransactionsData("RECEIVED",result,args[0].toString(),currentTime);
     list.add(t);
      setState(() {});
          }
          else{
-             TransactionsData t = new TransactionsData("RECEIVED",result,args[0].toString(),currentTime);
+             TransactionsData t = new TransactionsData("PAID",result,args[0].toString(),currentTime);
      list.add(t);
      setState(() {});
          }
@@ -176,12 +176,12 @@ return response;
                       color: Colors.white), 
                       color: Palette.DarkGreen,
                       shape:Vx.roundedSm,
-                      label: "Deposit".text.white.make()).h(50),
+                      label: "Receive".text.white.make()).h(50),
                        FlatButton.icon(onPressed: ()=>withdrawCoins(),
                       icon: Icon(Icons.remove_outlined,  color: Colors.white),
                       shape:Vx.roundedSm,
                       color: Palette.Orange,
-                      label: "Withdraw".text.white.make()).h(50)
+                      label: "Pay".text.white.make()).h(50)
                    ],
                    alignment: MainAxisAlignment.spaceAround,
                    axisSize: MainAxisSize.max,
