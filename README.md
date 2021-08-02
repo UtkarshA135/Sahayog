@@ -5,9 +5,8 @@ A simple easy to use Flutter application , which keeps a track of all your day t
 ## Demo Videos
 
 ![App Icon](https://github.com/UtkarshA135/Sahayog/blob/main/assets/sahayog.png)
-![Splash Screen](https://github.com/UtkarshA135/Sahayog/blob/main/assets/sahayog.mp4)
-![Recieve Demo](https://github.com/UtkarshA135/Sahayog/blob/main/assets/pay.mp4)
-![Pay Demo](https://github.com/UtkarshA135/Sahayog/blob/main/assets/receive.mp4)
+![Recieve Demo](https://github.com/UtkarshA135/Sahayog/blob/main/assets/receive.gif)
+![Pay Demo](https://github.com/UtkarshA135/Sahayog/blob/main/assets/pay.gif)
 
 ## Tech-Stack
 - Flutter - for frontend
@@ -17,4 +16,4 @@ A simple easy to use Flutter application , which keeps a track of all your day t
 
 #### Our Presentation link -
 
-![Canva Link](https://www.canva.com/design/DAEl1ttAXjI/sIi0Fm4ybnt3aRWwGjk2dA/view?utm_content=DAEl1ttAXjI&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+(https://www.canva.com/design/DAEl1ttAXjI/sIi0Fm4ybnt3aRWwGjk2dA/view?utm_content=DAEl1ttAXjI&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
