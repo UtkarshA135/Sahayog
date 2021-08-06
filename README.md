@@ -11,7 +11,7 @@ A simple easy to use Flutter DApp , which keeps a track of all your day to day t
 
 ## Tech-Stack
 - Flutter - for frontend
-- Ethereum Blockchain written in Solidity in Remix IDE , we intend to use Cardona - its 1.6 million times more energy efficient.
+- Ethereum Blockchain written in Solidity in Remix IDE , we intend to use Cardano - its 1.6 million times more energy efficient.
 - Metamask - for deployment of blockchain server.
 - Infura - to provide enpoint url to estabish connection between blockchain server and flutter blockchain
 
