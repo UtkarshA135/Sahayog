@@ -15,7 +15,7 @@ A simple easy to use Flutter DApp , which keeps a track of all your day to day t
 - Metamask - for deployment of blockchain server.
 - Infura - to provide enpoint url to estabish connection between blockchain server and flutter blockchain
 
-#### Our Idea Pitch -
+## Our Idea Pitch -
 
 Banking for Poor is one of the most neglected and biggest obstacle in the development of the country like India. Where one side, we have a India which is reaching pinnacle of the fintech technology , the other side is so badly neglected that 20% of the population of the nation doesn't even have a bank account. For people like us , having a credit card might not sound a big deal but we need to understand that credit is a such a miracle of economics that when done right it can double the income of the poorest in the country, and as of today it is underutilized to such an extent that we may be bleeding billions of dollars in terms of GDP of the country.
 
