@@ -3,11 +3,12 @@
 A simple easy to use Flutter DApp , which keeps a track of all your day to day transactions by using Ethereum blockchain in the background which in turn increases your credit score.
 
 ## Demo Videos
-<p  float="left">
+<p  float="left" >
 <img src="https://github.com/UtkarshA135/Sahayog/blob/main/assets/sahayog.png" width="250" title="app icon">
 <img src="https://github.com/UtkarshA135/Sahayog/blob/main/assets/receive.gif" width="250" title="receive demo">
 <img src="https://github.com/UtkarshA135/Sahayog/blob/main/assets/pay.gif" width="250" title="pay demo">
 </p>
+
 ## Tech-Stack
 - Flutter - for frontend
 - Ethereum Blockchain written in Solidity in Remix IDE , we intend to use Cardano - its 1.6 million times more energy efficient.
